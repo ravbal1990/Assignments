@@ -10,7 +10,21 @@
 
 <body>
   <button onclick="scrollToTopFunction()" id="topBtn" title="Scroll to Top">Scroll To Top</button>
-  <script src="scrollTopScript.js"></script>
+  <script>
+    var top_button = document.getElementById("topBtn");
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        top_button.style.display = "block";
+    } else {
+        top_button.style.display = "none";
+    }
+  }
+    function scrollToTopFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+    }
+  </script>
   <div class="wrapper">
     <section class="top-section" style="border:1px solid black; margin:1px">
       <a name="top-link"></a>
