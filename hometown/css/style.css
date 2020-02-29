@@ -81,7 +81,7 @@ section h2{
     padding-left: 70px;
     padding-right: 20px;
     text-align: center;
-    font-family: Georgia;
+    font-family: ABeeZee;
     font-weight: bold;
     font-size: medium;
     color: firebrick;
@@ -120,7 +120,7 @@ section h2{
     display: block;
     float: left;
     text-align: center;
-    font-family: Georgia;
+    font-family: ABeeZee;
     font-weight: bold;
     font-size: medium;
     color: firebrick
@@ -128,7 +128,7 @@ section h2{
 
 .ib.i1 > .economy_txt h2{
     padding-top: 100px;
-    font-family: Georgia;
+    font-family: ABeeZee;
     font-weight: bold;
     font-size: larger;
     color: firebrick
@@ -145,7 +145,7 @@ section h2{
 
 .ib.i1 > .dubai-stats h2{
     padding-top: 10px;
-    font-family: Georgia;
+    font-family: ABeeZee;
     font-weight: bold;
     font-size: larger;
     color: firebrick
