@@ -5,14 +5,39 @@
 
 body{
     width: 100%;
+    background: white;
 }
 
 .wrapper{
     width: 100%;
 }
 
+section h2{
+    font-family: Candal;
+    font-weight: bold;
+    font-size: xx-large;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: saddlebrown;
+}
+
+#topBtn {
+    display: none;
+    position: fixed;
+    height: fit-content;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
 .top-section{
-    background-color: darkgrey; 
+    /* background-color: darkgrey;  */
     height: auto;
 }
 
@@ -22,7 +47,7 @@ body{
 }
 
 .ib.i2>.banner > .banner-image{
-    height: 60%;
+    height: 500px;
     width: 100%;
     display: block;
 }
@@ -35,10 +60,11 @@ body{
    font-size: larger;
    color: crimson;
    font-weight: bold;
+   transition-property: all;
 }
 
 .about-section{
-    background-color: floralwhite;
+    /* background-color: floralwhite; */
     height: auto;
     width: 100%;
 }
@@ -47,22 +73,33 @@ body{
    width: 100%;
 }
 
-.ib.i1>.about-dubai_1> #island1{
-    height: 400px;
-    width: 300px;
+.ib.i1>.about-dubai_1> #island_img1{
+    height: 600px;
+    width: fit-content;
     display: block;
     float: right;
-    padding-left: 100px;
+    padding-left: 70px;
+    padding-right: 20px;
     text-align: center;
     font-family: Georgia;
     font-weight: bold;
     font-size: medium;
-    color: firebrick
+    color: firebrick;
+}
+
+.ib.i1>.about-dubai_1> #island_img1  img{
+    transition-property: border-radius;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+}
+
+#island_img1 img:hover{
+    border-radius: 50%;
 }
 
 .ib.i1>.about-dubai_1{
     padding-top: 10px;
-    padding-left: 100px;
+    padding-left: 50px;
     font-family: ABeeZee;
     font-size: large;
     font-weight: bold;
@@ -73,12 +110,13 @@ body{
     padding-top: 5px;
 }
 
-.ib.i1>.about-dubai_2> #island2{
-    height: 400px;
-    width: 300px;
+.ib.i1>.island_img2> #island2{
+    height: 600px;
+    width: fit-content;
     padding-top: 5px;
-    padding-right: 400px;
-    padding-left: 25px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 30px;
     display: block;
     float: left;
     text-align: center;
@@ -88,30 +126,155 @@ body{
     color: firebrick
 }
 
-#citystats td {
-        border: 1px solid black;
-        border-collapse: collapse;
-        padding-top: 10px;
-        background-color: mintcream;
-        font-family: Arial;
-        font-weight: bold; 
+.ib.i1 > .economy_txt h2{
+    padding-top: 100px;
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: larger;
+    color: firebrick
 }
 
-.ib.i1>.about-dubai_3{
+.ib.i1 > .economy_txt{
     padding-top: 10px;
+    font-family: ABeeZee;
+    padding-right: 20px;
+    font-size: large;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.ib.i1 > .dubai-stats h2{
+    padding-top: 10px;
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: larger;
+    color: firebrick
+}
+
+#citystats td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding-top: 5px;
+    background-color:#CCD1D1;
+    font-family: Arial;
+    font-weight: bold; 
+}
+
+.cuisine-section{
+    /* background-color: mintcream; */
+    height: auto;
+    width: 100%;
+}
+
+.ib.i4{
+    width: 100%;
+}
+
+.ib.i4 > .cuisine1{
+    float: left;
+    width: fit-content;
+    height: 33%;
+}
+
+.ib.i4 > .cuisine1> .cuisine_img1{
+    height: 400px;
+    width: fit-content;
+    display: block;
+    float: left;
+    padding-top: 5px;
+    padding-right: 100px;
+    padding-left: 20px;
+    animation: img-blinker 7s linear infinite;
+}
+
+@keyframes img-blinker {
+    50% { opacity: 0; }
+  }
+
+.ib.i4 > .cuisine1> .cuisine_txt1 h2{
+    font-family: Arial;
+    font-size: larger;
+    color: crimson;
+    font-weight: bold;
+}
+
+.ib.i4> .cuisine1> .cuisine_txt1{
+    padding-top: 100px;
+    padding-right: 200px;
     font-family: ABeeZee;
     font-size: large;
     font-weight: bold;
     text-align: justify;
 }
 
-.cuisine-section{
-    background-color: dimgray;
-    width: 100%;
+.ib.i4 > .cuisine2{
+    float: left;
+    width: fit-content;
+    height: 33%;
+}
+
+.ib.i4 > .cuisine2> .cuisine_img2{
+  height: 400px;
+    width: fit-content;
+    display: block;
+    float: left;
+    padding-top: 5px;
+    padding-right: 100px;
+    padding-left: 20px;
+    animation: img-blinker 7s linear infinite;
+}
+
+.ib.i4 > .cuisine2> .cuisine_txt2 h2{
+    font-family: Arial;
+    font-size: larger;
+    color: crimson;
+    font-weight: bold;
+}
+
+.ib.i4> .cuisine2> .cuisine_txt2{
+    padding-top: 100px;
+    padding-right: 200px;
+    font-family: ABeeZee;
+    font-size: large;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.ib.i4 > .cuisine3{
+    float: left;
+    width: fit-content;
+    height: 33%;
+}
+
+.ib.i4 > .cuisine3> .cuisine_img3{
+   height: 400px;
+    width: fit-content;
+    display: block;
+    float: left;
+    padding-top: 5px;
+    padding-right: 100px;
+    padding-left: 20px;
+    animation: img-blinker 7s linear infinite;
+}
+
+.ib.i4 > .cuisine3> .cuisine_txt3 h2{
+    font-family: Arial;
+    font-size: larger;
+    color: crimson;
+    font-weight: bold;
+}
+
+.ib.i4> .cuisine3> .cuisine_txt3{
+    padding-top: 100px;
+    padding-right: 200px;
+    font-family: ABeeZee;
+    font-size: large;
+    font-weight: bold;
+    text-align: justify;
 }
 
 .celebrities-section{
-    background-color: ivory;
+    /* background-color: ivory; */
     width: 100%;
     height: auto;
 }
@@ -145,7 +308,6 @@ body{
 
 .ib.i3 > .celebrities-dubai_2{
     height: auto;
-    padding-top: 50px;
 }
 
 .ib.i3 > .celebrities-dubai_2 img{
@@ -172,6 +334,8 @@ body{
 
 
 .references-section{
-    background-color: lightcyan;
+    /* background-color: lightcyan; */
+    padding-top: 40px;
     width: 100%;
+    height: auto;
 }
