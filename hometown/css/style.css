@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    height: 100%;
+}
+
+body{
+    width: 100%;
+}
+
+.wrapper{
+    width: 100%;
+}
+
+.top-section{
+    background-color: darkgrey; 
+    height: auto;
+}
+
+.ib.i2{
+    text-align: center;
+    width: 100%;
+}
+
+.ib.i2>.banner > .banner-image{
+    height: 60%;
+    width: 100%;
+    display: block;
+}
+
+.ib.i2 > .banner > .bookmark-links > ul > li{
+   display: inline;
+   padding: 5px;
+   text-align: center;
+   font-family: Arial;
+   font-size: larger;
+   color: crimson;
+   font-weight: bold;
+}
+
+.about-section{
+    background-color: floralwhite;
+    height: auto;
+    width: 100%;
+}
+
+.ib.i1{
+   width: 100%;
+}
+
+.ib.i1>.about-dubai_1> #island1{
+    height: 400px;
+    width: 300px;
+    display: block;
+    float: right;
+    padding-left: 100px;
+    text-align: center;
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: medium;
+    color: firebrick
+}
+
+.ib.i1>.about-dubai_1{
+    padding-top: 10px;
+    padding-left: 100px;
+    font-family: ABeeZee;
+    font-size: large;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.ib.i1 > .about-dubai_1 > ul{
+    padding-top: 5px;
+}
+
+.ib.i1>.about-dubai_2> #island2{
+    height: 400px;
+    width: 300px;
+    padding-top: 5px;
+    padding-right: 400px;
+    padding-left: 25px;
+    display: block;
+    float: left;
+    text-align: center;
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: medium;
+    color: firebrick
+}
+
+#citystats td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding-top: 10px;
+        background-color: mintcream;
+        font-family: Arial;
+        font-weight: bold; 
+}
+
+.ib.i1>.about-dubai_3{
+    padding-top: 10px;
+    font-family: ABeeZee;
+    font-size: large;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.cuisine-section{
+    background-color: dimgray;
+    width: 100%;
+}
+
+.celebrities-section{
+    background-color: ivory;
+    width: 100%;
+    height: auto;
+}
+
+.ib.i3{
+    text-align: left;
+    margin-top: 10px;
+    float: left;
+    overflow: hidden;
+    width: 100%;
+}
+
+.ib.i3 > .celebrities-dubai_1{
+    height: auto;
+    padding-bottom: 100px;
+}
+
+.ib.i3 > .celebrities-dubai_1 img{
+    width: 150px;
+    height: 100px;
+    float: left;
+    padding-right: 25px;
+}
+
+.ib.i3 > .celebrities-dubai_1 h2{
+    font-family: Arial;
+    font-size: larger;
+    color: crimson;
+    font-weight: bold;
+}
+
+.ib.i3 > .celebrities-dubai_2{
+    height: auto;
+    padding-top: 50px;
+}
+
+.ib.i3 > .celebrities-dubai_2 img{
+    width: 150px;
+    height: 100px;
+    float: left;
+    padding-right: 25px;
+}
+
+.ib.i3 > .celebrities-dubai_2 h2{
+    font-family: Arial;
+    font-size: larger;
+    color: crimson;
+    font-weight: bold;
+}
+
+.ib.i3 > .celebrities-dubai_2 p{
+    padding: 5px;
+   font-family: Arial;
+   font-size: medium;
+   font-weight: bold;
+   text-align: justify;
+}
+
+
+.references-section{
+    background-color: lightcyan;
+    width: 100%;
+}

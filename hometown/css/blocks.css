@@ -1,0 +1,47 @@
+/*
+
+	Do NOT edit styles in here or add your own styles to this sheet.
+	Create your own separate file for your own styles. In your own
+	file, you can even add rule-sets that override some of these, i.e.:
+	.ib {
+		background-color:tan;
+	}
+	Add those styles in your own, new CSS file and NOT in this blocks.css file.
+
+*/
+
+
+.wrapper {
+    width:1200px;
+    margin:auto;
+}
+
+section {
+    margin:0;
+    padding:0;
+    overflow:hidden;
+	text-align:center;
+}
+
+.ib {
+    display:inline-block;
+    min-height: 50px;
+    overflow:hidden;
+    margin: 1px;
+    padding:0;
+    vertical-align: top;
+	text-align:left;
+}
+
+.i1 {
+    width:1194px;
+}
+.i2 {
+    width:594px;
+}
+.i3 {
+    width:394px
+}
+.i4 {
+    width:294px;
+}
