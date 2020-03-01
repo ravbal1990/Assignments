@@ -1,0 +1,14 @@
+drop table CATEGORY;
+drop table MEMBERS;
+drop table NOMINATORS;
+drop table PHOTOGRAPHER;
+drop table PHOTOGRAPHY_CONTEST;
+drop table SPONSORS;
+drop table SUBMISSIONS;
+drop table SUPPORT;
+drop table FEATURE_EXHIBITION;
+drop table NOMINATE;
+drop table OPEN_CALL_EXHIBITION;
+drop table NOMINEE;
+drop table AWARDS;
+drop table PHOTO_MAGAZINE;
