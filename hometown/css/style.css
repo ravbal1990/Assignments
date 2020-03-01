@@ -8,8 +8,13 @@ body{
     background: white;
 }
 
+section{
+    text-align: center;
+}
+
 .wrapper{
     width: 100%;
+    text-align: center;
 }
 
 section h2{
@@ -19,6 +24,7 @@ section h2{
     padding-top: 10px;
     padding-bottom: 10px;
     color: saddlebrown;
+    text-align: center;
 }
 
 #topBtn {
@@ -37,8 +43,9 @@ section h2{
   }
   
 .top-section{
-    /* background-color: darkgrey;  */
+    background-color: darkgrey;
     height: auto;
+    width: 100%;
 }
 
 .ib.i2{
@@ -50,6 +57,10 @@ section h2{
     height: 500px;
     width: 100%;
     display: block;
+}
+
+.ib.i2 > .banner > .bookmark-links a:hover{
+    color: brown;
 }
 
 .ib.i2 > .banner > .bookmark-links > ul > li{
@@ -64,13 +75,14 @@ section h2{
 }
 
 .about-section{
-    /* background-color: floralwhite; */
+    background-color: floralwhite; 
     height: auto;
     width: 100%;
 }
 
 .ib.i1{
    width: 100%;
+   text-align: center;
 }
 
 .ib.i1>.about-dubai_1> #island_img1{
@@ -103,11 +115,13 @@ section h2{
     font-family: ABeeZee;
     font-size: large;
     font-weight: bold;
-    text-align: justify;
+    text-align: center;
 }
 
 .ib.i1 > .about-dubai_1 > ul{
     padding-top: 5px;
+    display:inline-block;
+    text-align:left;
 }
 
 .ib.i1>.island_img2> #island2{
@@ -140,7 +154,7 @@ section h2{
     padding-right: 20px;
     font-size: large;
     font-weight: bold;
-    text-align: justify;
+    text-align: center;
 }
 
 .ib.i1 > .dubai-stats h2{
@@ -151,6 +165,11 @@ section h2{
     color: firebrick
 }
 
+.ib.i1 > .dubai-stats > #citystats {
+    text-align: center;
+    padding-left: 300px;
+}
+
 #citystats td {
     border: 1px solid black;
     border-collapse: collapse;
@@ -158,16 +177,18 @@ section h2{
     background-color:#CCD1D1;
     font-family: Arial;
     font-weight: bold; 
+    text-align: center;
 }
 
 .cuisine-section{
-    /* background-color: mintcream; */
+    background-color: mintcream; 
     height: auto;
     width: 100%;
 }
 
 .ib.i4{
     width: 100%;
+    text-align: center;
 }
 
 .ib.i4 > .cuisine1{
@@ -274,47 +295,41 @@ section h2{
 }
 
 .celebrities-section{
-    /* background-color: ivory; */
+    background-color: ivory; 
     width: 100%;
     height: auto;
 }
 
 .ib.i3{
-    text-align: left;
-    margin-top: 10px;
-    float: left;
-    overflow: hidden;
     width: 100%;
+    height: auto;
 }
 
 .ib.i3 > .celebrities-dubai_1{
-    height: auto;
-    padding-bottom: 100px;
+    width: 50%;
 }
 
 .ib.i3 > .celebrities-dubai_1 img{
     width: 150px;
-    height: 100px;
+    height: auto;
     float: left;
     padding-right: 25px;
+    padding-left: 15%;
 }
 
-.ib.i3 > .celebrities-dubai_1 h2{
+.ib.i3 > .celebrities-dubai_1 > h2{
     font-family: Arial;
     font-size: larger;
     color: crimson;
     font-weight: bold;
+    text-align: left;
+    float: left;
 }
 
 .ib.i3 > .celebrities-dubai_2{
-    height: auto;
-}
-
-.ib.i3 > .celebrities-dubai_2 img{
-    width: 150px;
-    height: 100px;
-    float: left;
-    padding-right: 25px;
+    width: 50%;
+    text-align: center;
+    float: right;
 }
 
 .ib.i3 > .celebrities-dubai_2 h2{
@@ -329,13 +344,17 @@ section h2{
    font-family: Arial;
    font-size: medium;
    font-weight: bold;
-   text-align: justify;
+   text-align: center;
 }
 
-
 .references-section{
-    /* background-color: lightcyan; */
-    padding-top: 40px;
-    width: 100%;
+    background-color: lightcyan;
     height: auto;
+    width: 100%;
+}
+
+.ib.i4 > ul{
+    display:inline-block;
+    text-align:left;
+    
 }
